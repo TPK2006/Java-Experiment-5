@@ -56,7 +56,7 @@ public class Main {
     public static void partB() {
         String filename = "student.ser";
         try (ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(filename))) {
-            Student s1 = new Student(101, "Krishna", 89.5);
+            Student s1 = new Student(102, "Prasanth Kumar", 90.2);
             out.writeObject(s1);
             System.out.println("Student object serialized successfully.");
         } catch (IOException e) {
